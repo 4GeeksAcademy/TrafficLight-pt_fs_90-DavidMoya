@@ -1,12 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    width: 200px;
+    height: 500px ;
+    border-radius: 60px;
+    margin-top:5%;
 
-/* 
-
-    You can write your own styles here...
     
+}
+.luz {
+    border-radius: 50%;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    margin-left: 21%;  
+    transition: background-color 0.5s ease, box-shadow 0.75s ease;
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+.rojo-off{
+    background: rgba(255, 0, 0, 0.330);
+}
+.rojo-on{
+    background: red;
+    box-shadow: 0 0 30px 10px rgba(255, 0, 0, 0.8);
+}
+.amarillo-off{
+    background: rgba(255, 255, 0, 0.330);
+}
+.amarillo-on{
+    background: yellow;
+    box-shadow: 0 0 30px 10px rgba(255, 255, 0, 0.8)
+}
+.verde-off{
+    background: rgba(0, 128, 0, 0.330);
+}
+.verde-on{
+    background: rgb(0, 255, 0);
+    box-shadow: 0 0 30px 10px rgba(0, 255, 0, 0.8)
+}
